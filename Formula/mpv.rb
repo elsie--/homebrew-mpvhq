@@ -3,9 +3,9 @@ require 'formula'
 class Mpv < Formula
   url 'https://github.com/mpv-player/mpv/archive/v0.9.2.tar.gz'
   sha1 'e5b59d62dee13f8f5cf3974f9c46b7afeb02b740'
-  head 'https://github.com/mpv-player/mpv.git',
+  head 'https://github.com/haasn/mpvhq.git',
     :branch => ENV['MPV_BRANCH'] || "master"
-  homepage 'https://github.com/mpv-player/mpv'
+  homepage 'https://github.com/haasn/mpvhq'
 
   depends_on 'pkg-config' => :build
   depends_on :python
